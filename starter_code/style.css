@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(244, 202, 65),
+    rgb(255, 94, 0)
+  );
+}
+.search-container {
+  height: 45px;
+  width: 200px;
+  margin: 200px auto 0;
+}
+input {
+  flex: 1;
+  height: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid red;
+  outline: 0;
+  font-display: center;
+  font-size: 16px;
+  background-color: rgb(237, 170, 82);
+}
+.suggestions ul {
+  padding: 15px 10px;
+}
+ul li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  background-color: rgb(237, 170, 82);
+  cursor: grab;
+}
+ul li:hover {
+  background-color: orangered;
+  color: black;
+}
